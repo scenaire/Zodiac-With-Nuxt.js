@@ -12,7 +12,7 @@
             text-field="name"
         ></b-form-radio-group>
 
-        <div class="mt-3">Selected: <strong>{{ selected }}</strong></div>
+        <ZodiacCard v-if="selected == 'zodiac'"/>
         
     </div>
 </template>

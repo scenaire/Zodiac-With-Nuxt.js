@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <b-row class="vh-100 text-center" align-v="center">
-      <div class="wrapper">
+      <div class="wrapperr">
         <div>
         <h1 class="title">
           Chinese Zodiac
@@ -35,7 +35,7 @@ export default {}
 
 <style>
 
-.wrapper {
+.wrapperr {
   width: 100%;
 }
 
