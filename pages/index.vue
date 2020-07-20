@@ -1,29 +1,31 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        Zodiac
-      </h1>
+    <b-row class="vh-100 text-center" align-v="center">
+      <div class="wrapper">
+        <div>
+        <h1 class="title">
+          Chinese Zodiac
+        </h1>
+      </div>
+
+      <br>
+
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
+        <nuxt-link
+          to="/zodiacTable"
           class="button--green"
         >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
+          Table
+        </nuxt-link>
+        <nuxt-link
+          to="/zodiacInformation"
           class="button--grey"
         >
-          GitHub
-        </a>
+          Information
+        </nuxt-link>
       </div>
-    </div>
+      </div>
+    </b-row>
   </div>
 </template>
 
@@ -32,13 +34,9 @@ export default {}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+.wrapper {
+  width: 100%;
 }
 
 .title {
@@ -59,15 +57,4 @@ export default {}
   letter-spacing: 1px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
