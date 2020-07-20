@@ -13,6 +13,7 @@
         ></b-form-radio-group>
 
         <ZodiacCard v-if="selected == 'zodiac'"/>
+        <ZodiacYear v-if="selected == 'year'"/>
         
     </div>
 </template>
