@@ -5,7 +5,7 @@
             <img :src="selectedZodiac.imgName">
         </b-col>
         <b-col sm="8">
-            <p>Year: </p>
+            <p>Year: <span class="bold">{{selectedZodiac.year}}</span></p>
             <p>Chinese Zodiac: <span class="bold">{{selectedZodiac.name}}</span></p>
             <p>Yin/Yang: <span class="bold">{{selectedZodiac.yinYang}}</span></p>
             <p>Element: <span class="bold">{{selectedZodiac.element}}</span></p>
@@ -17,6 +17,13 @@
 
 <script>
 export default {
+
+    props: {
+        selectedZodiac: {
+            type: Array,
+            required: true
+        }
+    }
 
 }
 </script>
