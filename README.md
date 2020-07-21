@@ -1,20 +1,7 @@
 # Zodiac
 
-## Build Setup
+Zodiac is a web application that provided horoscope build with Nuxt.js
 
-```bash
-# install dependencies
-$ npm install
+## Screenshot
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+![image](https://www.img.in.th/images/e973daff7e02ded8de0be913870e4918.png)![image](https://www.img.in.th/images/0deee1333351fbdd52450937c89ac784.png) ![image](https://www.img.in.th/images/f6d4ad9b6dfdea2eb0be4f79539c28d9.png) ![image](https://www.img.in.th/images/806b1f2f54821a9733b4dfe8b6c16124.png)
